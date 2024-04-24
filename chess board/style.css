@@ -1,0 +1,33 @@
+.bord{
+    height: 416px;
+    width: 416px;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 20px 4px, rgba(0, 0, 0, 0.3) 10px 20px 13px -3px, #20292F 10px 20px 10px inset;
+}
+.white{
+    height: 50px;
+    width: 50px;
+    float: right;
+    border: 1px solid #000;
+    background:#000;
+}
+.black{
+    height: 50px;
+    width: 50px;
+    float: right;
+    border: 1px solid #000;
+    background:#fff ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2017/09/chess-14.jpg);
+    backdrop-filter: blur(5px);
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
